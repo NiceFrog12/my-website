@@ -1,0 +1,97 @@
+
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000
+    ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 11px; 
+    background-color: #f0f0f0; 
+    color: #333333;
+    background:
+        url(https://as1.ftcdn.net/v2/jpg/03/03/25/42/1000_F_303254286_X3tXqqmRHAJnrdYfala1YLvuWkunvgII.jpg) top center / 100% auto,
+        url(https://wallpapers.com/images/hd/captivating-neon-street-at-night-03dfknwy1bkun6z2.jpg)bottom center / 100% auto;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    text-align: center;
+    color: #fdfdfd; /* Цвет заголовка */
+    font-size: 40px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial,  sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000
+    ;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: auto;
+    size: 350px;
+    border-radius: 10px;
+  }
+
+.quotes {
+    font-weight: bold;
+    font-style: italic;
+}
+/* this only turns the animation on, if you hover the mouse over it. In the :hover, you should only put in the animation. */
+.quotes:hover {
+    animation: quotesclass 3s infinite;
+}
+@keyframes quotesclass {
+    0% {
+      color: rgb(34, 182, 113);
+    font-size: 20px ;}
+  
+    50% {
+      color: red;
+      font-size: 25px ;
+    }
+  
+    100% {
+      font-size: 20px ;
+      color: rgb(34, 182, 113);;
+    }
+
+}
+
+.weather{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+    background-color: rgb(147, 87, 216);
+    max-width: 300px ;
+    margin: auto;
+}
